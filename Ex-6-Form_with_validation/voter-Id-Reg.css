@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.regForm{
+    width: 30%;
+    padding: 25px;
+    border: 3px solid red;
+    margin: 50px auto;
+    background: linear-gradient(342deg, rgba(154,195,34,1) 0%, rgba(45,253,226,1) 100%);
+}
+
+input,textarea{
+    border-radius: 5px;
+    padding: 5px;
+    background: grey;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+.regForm h1{
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#sub-btn{
+    background: rgb(236, 19, 19);
+    padding: 5px;
+    margin-left: 45%;
+    color: white;
+}

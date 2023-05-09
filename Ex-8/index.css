@@ -1,0 +1,47 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align:center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#run{
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(45, 243, 14);
+    color: white;
+}
+
+#come{
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(243, 14, 14);
+    color: white;
+}
+
+.container2{
+    width:90%;
+    height: 70vh;
+    padding: 10px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: black;
+
+}
+
+#ball{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#up{
+    margin-left: 50%;
+}
+
+#down{
+    margin-left: 49.5%;
+}

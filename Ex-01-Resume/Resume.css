@@ -1,0 +1,82 @@
+body {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+#main-body{
+    max-width: 60%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 2rem;
+    box-shadow: 20px 20px 50px 5px black;
+    font-size: larger;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+
+.intro {
+    padding: 10px;
+    display: flex;
+    margin-inline: 0 auto;
+}
+
+.intro img {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+.intro h3 {
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.contact {
+    min-height: auto;
+    margin-top: 5px;
+}
+
+/* main table,
+th,
+td {
+    border: 2px solid black;
+    padding: 5px;
+} */
+
+.contact table,
+th,
+td {
+    border: none;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.bdr {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+main hr {
+    border-color: black;
+}
+
+main h2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+main ul{
+    margin-top: 0px;
+    line-height: 30px;
+    font-size: larger;
+}

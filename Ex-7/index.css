@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#a{
+    color: red;
+}
+
+#b{
+    color: orange;
+}
+
+#c{
+    color: rgb(199, 199, 16);
+}
+
+#d{
+    color: green;
+}
+
+#e{
+    color: blue;
+}
