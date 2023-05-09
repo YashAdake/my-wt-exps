@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter id validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>         
+<body>
+    <div class="container">
+        <form>
+            <h1>Voter-ID regisration</h1>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name"required><br><br>
+            <label for="address">Address :</label>
+            <textarea id="address" cols="30" row="1"></textarea><br><br>
+            <label for="DOB">Date of Birth :</label>
+            <input type="date" id="DOB" required><br><br>
+            <label for="Gender">Gender :</label>
+            <input type="radio" name="gender" value="M">Male
+            <input type="radio" name="gender" value="F">female
+            <br><br>
+            <label for="aadhar">Aadhar card number :</label>
+            <input type="number" id="aadhar" required></input><br><br>
+            <label for="contact">Mobile :</label>
+            <input type="number" id="contact" ></input><br><br>
+            <label for="contact">Postal Code :</label>
+            <input type="number" id="pin" required></input><br><br>
+             
+            <input type="button" onclick="validation()" value="Submit">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

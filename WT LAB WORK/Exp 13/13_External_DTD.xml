@@ -1,0 +1,10 @@
+
+<!--External DTD-->
+<!DOCTYPE Address SYSTEM "Add.dtd">
+<address>
+  <contact>
+    <name>Trupti Thorat</name>
+    <company>Acme Corporation</company>
+    <phone>123-456-7890</phone>
+  </contact>
+</address>

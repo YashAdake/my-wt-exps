@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student>
+    <Collage>ABC College</Collage>
+    <Class>10th</Class>
+    <Name>AAA</Name>
+    <RollNo>1001</RollNo>
+  </student>
+  <student>
+    <Collage>XYZ College</Collage>
+    <Class>12th</Class>
+    <Name>BBB</Name>
+    <RollNo>2002</RollNo>
+  </student>
+</students>

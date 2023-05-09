@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address [
+  <!ELEMENT address (contact)>
+  <!ELEMENT contact (name, company, phone)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT company (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+]>

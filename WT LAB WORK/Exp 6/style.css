@@ -1,0 +1,47 @@
+.container {
+    width : 30%;
+    padding : 30px;
+    border: 1px solid black;
+    background: linear-gradient(to right bottom,rgb(125, 215, 250),rgb(211, 245, 243));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    border-radius: 3%;
+}
+body {
+    background-color: rgb(63, 73, 77);
+}
+h1 {
+    text-align: center;
+}
+
+input[type='text']{
+    background-color: rgb(75, 87, 89);
+    color: white;
+}
+
+input[type='number']{
+    background-color: rgb(69, 81, 82);
+    color: white;
+}
+
+input[type='date']{
+    background-color: rgb(86, 111, 111);
+    color: white;
+}
+
+input[type='button']{
+    background-color: rgb(69, 76, 80);
+    color: white;
+    padding: 20px;
+    font-size: 13px;
+}
+
+textarea{
+    background-color: rgb(74, 81, 82);
+    color: white;
+}
+
+

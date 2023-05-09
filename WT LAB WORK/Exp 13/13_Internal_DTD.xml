@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address [
+  <!ELEMENT address (contact)>
+  <!ELEMENT contact (name, company, phone)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT company (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+]>
+<address>
+  <contact>
+    <name>Trupti Thorat</name>
+    <company>Acme Corporation</company>
+    <phone>123-456-7890</phone>
+  </contact>
+</address>
+
+<!--Internal DTD-->
